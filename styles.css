@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px;
+}
+
+/* Updated CSS for course list */
+.course-list {
+    display: flex;
+    justify-content: space-between;
+    /*overflow-x: auto; /* Allow horizontal scrolling for small screens */
+}
+
+.course-item {
+    border: 3px solid #333;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /*flex: 0 0 auto;*/
+    width: 500px;
+    height: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
